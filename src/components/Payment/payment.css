@@ -1,0 +1,12 @@
+.payment {
+  border: 1px solid black;
+  max-width: 100%;
+}
+.payment__container {
+  font-size: var(--font-primary);
+  line-height: 1.8rem;
+  margin: 2rem auto;
+  max-width: 80rem;
+  padding-inline: 2rem;
+  border: 2px solid red;
+}
