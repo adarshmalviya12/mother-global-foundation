@@ -1,7 +1,36 @@
-.footer{
-    background: #20262E;
+.footer {
+  background: #20262e;
+  color: white;
+  font-size: var(--font-primary);
+  line-height: 1.8rem;
+  letter-spacing: 1.2px;
 }
 
-.payment__container{
-   padding: 4rem;
+.footer__upper {
+  border: 2px solid white;
+  max-width: 1024px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-content {
+  border: 2px solid red;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.footer__logo img {
+  height: 10rem;
+  width: 10rem;
+}
+
+@media (max-width: 769px) {
+    .footer__links{
+        display: none;
+    }
+  .footer__upper {
+    flex-direction: column;
+  }
 }

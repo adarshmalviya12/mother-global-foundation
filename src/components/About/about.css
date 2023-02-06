@@ -19,6 +19,7 @@
 .about__section-info h1 {
   font-size: var(--font-large);
   line-height: 3rem;
+  margin-bottom: 0.5em;
 }
 .about__section-info p {
   font-size: var(--font-medium);
@@ -41,6 +42,7 @@
 
 @media (max-width: 768px) {
   .about__section-info {
+    margin-top: 1rem;
     max-width: 25rem;
   }
   .about__section-container {

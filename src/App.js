@@ -13,17 +13,21 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/gallary' element={<Gallary />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/donar' element={<OurDonars />} />
-      </Routes>
-      <Footer />
-    </>
-  );
+      <div className="App">
+
+
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/gallary' element={<Gallary />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/donar' element={<OurDonars />} />
+        </Routes>
+        <Footer />
+        </div>
+      </>
+      );
 }
 
-export default App;
+      export default App;
