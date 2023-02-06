@@ -17,12 +17,9 @@
 
 .footer-content {
   border: 2px solid red;
-  max-width: 24rem;
+  max-width: 25rem;
   padding: 1rem;
   margin: 1rem;
-}
-.footer__contacts{
-  padding-right: 1rem;
 }
 
 .footer__logo img {

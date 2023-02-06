@@ -20,7 +20,7 @@ function Footer() {
                         </ul>
                         <div className="footer__contacts footer-content">
                             <p className="footer__contacts-mail">
-                                <i class="fa-solid fa-envelope" /> :- sindhutaisapkalfoundation@gmail.com
+                                <i class="fa-solid fa-envelope" /> :- <a href="mailto:sindhutaisapkalfoundation@gmail.com">sindhutaisapkalfoundation@gmail.com</a>
                             </p>
                             <p className="footer__contacts-no">
                                 <div className="no1"><i class="fa-solid fa-phone"></i> :- <a rel="stylesheet" href="tel:+919767929394">9767929394</a>  /  <a rel="stylesheet" href="tel:+919422232044" >9422232044</a></div>

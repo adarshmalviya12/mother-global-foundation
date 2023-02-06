@@ -35,8 +35,16 @@
 }
 
 .icon-container i {
+  display: none;
   color: white;
 }
 
 @media (max-width: 768px) {
+  .icon-container i {
+    display: block;
+  }
+  .navbar__links {
+  display: none;
+  margin-inline: auto;
+}
 }
