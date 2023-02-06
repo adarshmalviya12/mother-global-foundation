@@ -1,15 +1,15 @@
 .footer {
   background: #20262e;
   color: white;
-  font-size: var(--font-primary);
+  font-size: 1rem;
   line-height: 1.8rem;
   letter-spacing: 1.2px;
+  box-sizing: border-box;
 }
 
 .footer__upper {
   border: 2px solid white;
-  max-width: 1024px;
-  margin-inline: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -17,8 +17,12 @@
 
 .footer-content {
   border: 2px solid red;
-  padding: 2rem;
-  margin: 3rem;
+  max-width: 24rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.footer__contacts{
+  padding-right: 1rem;
 }
 
 .footer__logo img {
@@ -26,11 +30,11 @@
   width: 10rem;
 }
 
-@media (max-width: 769px) {
-    .footer__links{
-        display: none;
-    }
+@media (max-width: 768px) {
+  .footer__links {
+    display: none;
+  }
   .footer__upper {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
