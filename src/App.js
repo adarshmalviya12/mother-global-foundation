@@ -14,20 +14,23 @@ function App() {
   return (
     <>
       <div className="App">
-
-
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/gallary' element={<Gallary />} />
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/donar' element={<OurDonars />} />
-        </Routes>
-        <Footer />
+        <div >
+          <Navbar />
         </div>
-      </>
-      );
+        <div>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/gallary' element={<Gallary />} />
+            <Route path='/about' element={<AboutUs />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/donar' element={<OurDonars />} />
+          </Routes>
+        </div>
+
+        <Footer />
+      </div>
+    </>
+  );
 }
 
-      export default App;
+export default App;

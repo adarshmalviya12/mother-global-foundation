@@ -1,5 +1,6 @@
 .navbar {
   display: flex;
+  position: sticky;
   align-items: center;
   justify-content: space-between;
   background-color: #645cbb;
@@ -44,7 +45,7 @@
     display: block;
   }
   .navbar__links {
-  display: none;
-  margin-inline: auto;
-}
+    display: none;
+    margin-inline: auto;
+  }
 }

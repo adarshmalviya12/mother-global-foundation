@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
     return (
-        <div>
+        <div style={{ height: '80vh', }}>
             About Us
         </div>
     )

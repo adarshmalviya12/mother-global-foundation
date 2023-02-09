@@ -2,7 +2,7 @@ import React from 'react'
 
 function OurDonars() {
   return (
-    <div>
+    <div style={{ height: '80vh', }}>
       Our Donars
     </div>
   )
