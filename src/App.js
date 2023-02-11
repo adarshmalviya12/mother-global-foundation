@@ -8,25 +8,28 @@ import OurDonars from "./Pages/OurDonars"
 import Contact from "./Pages/ContactUs"
 import './App.css';
 import { Route, Routes } from "react-router-dom";
+import styled from "styled-components"
 
+
+const NavbarContainer = styled.nav`
+position: sticky;
+top: 0;
+`
 
 function App() {
   return (
     <>
       <div className="App">
-        <div >
+        <NavbarContainer >
           <Navbar />
-        </div>
-        <div>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/gallary' element={<Gallary />} />
-            <Route path='/about' element={<AboutUs />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/donar' element={<OurDonars />} />
-          </Routes>
-        </div>
-
+        </NavbarContainer>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/gallary' element={<Gallary />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/donar' element={<OurDonars />} />
+        </Routes>
         <Footer />
       </div>
     </>
